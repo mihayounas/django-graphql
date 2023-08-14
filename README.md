@@ -1,1 +1,1 @@
-# django-graphql
+# django-graphql-challenge

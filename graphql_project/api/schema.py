@@ -17,7 +17,7 @@ class CreateItem(graphene.Mutation):
         name = graphene.String()
 
     item = graphene.Field(ItemType)
-
+#mutation
     def mutate(self, info, name):
         item = Item(name=name)
         item.save()
